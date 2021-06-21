@@ -19,6 +19,13 @@ export default function Home() {
           <code className={styles.code}>pages/index.js</code>
         </p>
 
+        <p className={styles.description}>
+          Get started by redirecting to{' '}
+          <a href="/about">
+            <code className={styles.code}>pages/about.js</code>
+          </a>
+        </p>
+
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
